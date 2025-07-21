@@ -36,7 +36,6 @@ router.get('/Buscar/', async (req, res) =>{
     } catch (error) {
         console.error(`No pai ERROR EJECUANDO VEA >>>>> ${error}`);
         res.status(500).json({error: error.message})
-        
     }
 
 });
